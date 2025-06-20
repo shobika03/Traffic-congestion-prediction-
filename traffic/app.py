@@ -12,7 +12,7 @@ from model_utils import train_random_forest, train_lstm
 
 @st.cache_data
 def load_and_preprocess():
-    return preprocess_data("C:\\Traffic_congestion_prediction\\traffic\Metro_Interstate_Traffic_Volume.csv")
+    return preprocess_data("C:\Traffic_congestion_prediction\traffic\Metro_Interstate_Traffic_Volume.csv")
 
 @st.cache_resource
 def load_rf_model(X, y):
