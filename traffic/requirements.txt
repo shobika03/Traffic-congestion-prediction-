@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 scikit-learn
-tensorflow-cpu==2.12.0
-geopy
-folium
-streamlit-folium
+tensorflow
+matplotlib
+seaborn
